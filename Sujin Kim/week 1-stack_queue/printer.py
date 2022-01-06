@@ -9,7 +9,7 @@ def solution(priorities, location):
     
     for i in range(L):
         
-        if(i==(L-1)):
+        if(i==(L-1)): # 2, 5, 18 런타임
             return L
         
         while (queue[i] < max(queue[(i+1):])):
