@@ -14,3 +14,4 @@ def solution(scoville, K):
         else:
             return -1
     return answer
+ 
